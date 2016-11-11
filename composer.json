@@ -1,0 +1,34 @@
+{
+	"name" : "psr-php7/log",
+	"description" : "PSR-3 Logger Interface with PHP 7 codebase.",
+	"type" : "library",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "Pedro Batista",
+			"email" : "pedrobatista@myself.com"
+		}
+	],
+	"require" : {
+		"php" : ">=7"
+	},
+	"require-dev" : {
+	},
+	"autoload" : {
+		"psr-4" : {
+			"Psr\\Log\\" : "src"
+		}
+	},
+	"keywords" : [
+		"log",
+		"psr",
+		"psr-6",
+		"logger",
+		"interface",
+		"php7"
+	],
+    "extra": {
+		"branch-alias": {
+			"dev-master": "1.0.x-dev"
+		}
+	}
+}
